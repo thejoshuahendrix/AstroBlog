@@ -61,7 +61,7 @@ Or
 
 `yarn add-D @types/cors @types/express @types/mongoose @types/node ts-node ts-node-dev typescript`
 
-Once our dependencies are installed we should set up our environment variables and set up a mongodb atlas account. If you are more familiar with mongoose you can setup a local server. But just follow the tutorial here to setup MongoDB Atlas.
+Once our dependencies are installed we should set up our environment variables and set up a mongodb atlas account. If you are more familiar with mongoose you can setup a local server. But just follow the tutorial [here](https://www.knowi.com/blog/getting-started-with-mongodb-atlas-overview-and-tutorial/#tc3) to setup MongoDB Atlas.
 Lets setup our environment variables by creating a .env file inside our project directory.
 
 `echo MONGO_URI= >.env`
