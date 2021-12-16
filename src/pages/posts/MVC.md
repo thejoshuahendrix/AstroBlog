@@ -121,8 +121,9 @@ const TodoSchema = new mongoose.Schema({
  },
   timestamps: true
 });
-```
+
 export const Todo = mongoose.model("todos", TodoSchema);
+```
 Here we have a basic model of a Todo you would use in a Todo List!
 Notice we just define the interface, define the schema and export it.
 Its that easy to create Mongoose schemas.
