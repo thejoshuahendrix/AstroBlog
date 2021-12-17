@@ -37,7 +37,7 @@ This will create our package.json with the default settings, you can omit the -y
 
 Next in order to use Typescript we will initialize our tsconfig.json
 
-`tsc init`
+`tsc --init`
 
 This will create our tsconfig.json and give it some default properties as well as commented out properties that we can choose to use.
 
